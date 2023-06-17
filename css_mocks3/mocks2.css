@@ -1,0 +1,98 @@
+button {
+    background-color:#4B9CD3;
+    color: white;
+    font-size: 2em;
+    margin: 50px auto;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+}
+
+
+
+button:hover {
+    background-color: #7591B0;
+}
+
+.wholeThing {
+    border: 5px solid gray;
+    width: 40%;
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.cat {
+    background-image: url("https://www.thesprucepets.com/thmb/APYdMl_MTqwODmH4dDqaY5q0UoE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-tabby-cats-552489-hero-a23a9118af8c477b914a0a1570d4f787.jpg");
+    width: 100%;
+    padding-bottom: 50%;
+    background-size: cover;
+}
+
+.iAmCat {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.lorem {
+    padding: 10px;
+}
+
+
+
+.gifs {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .gif {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    border: 8px solid red;
+    background-color: red;
+  }
+  
+  .border {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+  }
+  
+  .gif1 {
+    background-image: url("https://media.tenor.com/rTN9H5qy5VUAAAAC/bob-esponja-spongebob.gif");
+  }
+  
+  .gif2 {
+    background-image: url("https://media.tenor.com/JLQktJiNIpUAAAAC/squoop-squidward.gif");
+  }
+  
+  .gif3 {
+    background-image: url("https://media.tenor.com/_aHD2RdBEOMAAAAC/patrick-star-spongebob.gif");
+  }
+  
+  .title {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 300px;
+    transition: top 0.6s;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .gif:hover .title {
+    top: 0;
+  }
