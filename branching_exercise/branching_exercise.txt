@@ -1,0 +1,14 @@
+1. git checkout -b
+
+2. A fast-forward merge is when git is able to put
+commits on top of each other chronologically.
+A recursive merge happens when commits are not
+chronological.
+
+3. git checkout
+
+4. git branch -d
+
+5. Merge conflicts happen when git has to choose
+between two different changes and gets confused,
+forcing the user to pick which changes to keep.
